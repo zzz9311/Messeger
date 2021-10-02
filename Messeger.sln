@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messeger", "Messeger\Messeger.csproj", "{A7CEDC36-9803-4761-B3C2-FC58F42568C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A0045725-104C-486D-8545-32A7A6C00F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messeger.Domain.Core", "Messeger.Domain.Core\Messeger.Domain.Core.csproj", "{DE19D566-8E26-4833-990E-B7874DA5F34E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7CEDC36-9803-4761-B3C2-FC58F42568C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CEDC36-9803-4761-B3C2-FC58F42568C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CEDC36-9803-4761-B3C2-FC58F42568C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CEDC36-9803-4761-B3C2-FC58F42568C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE19D566-8E26-4833-990E-B7874DA5F34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE19D566-8E26-4833-990E-B7874DA5F34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE19D566-8E26-4833-990E-B7874DA5F34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE19D566-8E26-4833-990E-B7874DA5F34E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE19D566-8E26-4833-990E-B7874DA5F34E} = {A0045725-104C-486D-8545-32A7A6C00F06}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA6BBB16-81D9-49E6-AE54-E6A51E2CE185}
+	EndGlobalSection
+EndGlobal
